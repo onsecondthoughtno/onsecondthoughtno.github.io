@@ -1,0 +1,104 @@
+body.main {
+    font: normal 12px Arial, Helvetica, sans-serif;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+body.page {
+    font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+div.text{
+    font: normal 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+hr {
+    border-top: 1px solid rgb(158, 184, 169)
+}
+
+
+mainbox {
+    float: right;
+    position: static;
+    height: 100%;
+    width: calc(100% - 120px);
+}
+
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.entry {
+    text-align: justify;
+    margin: 1%;
+}
+
+iframe.page {
+    border:none;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;   
+}
+
+li {
+    margin-bottom: 9%;
+}
+
+li.entry {
+    margin-bottom: 1%;
+}
+
+navbar {
+    color: white;
+    text-decoration: none;
+    list-style: none;  
+    
+}
+
+div.nav {
+    padding: 1%;
+    width: 15%;
+    max-width: 100px;
+    min-width: 60px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(158, 184, 169);
+    text-align: center;
+    padding-top: 45vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+img.left {
+    float: left;
+    margin: 1%;
+}
+
+img.right {
+    float: right;
+    margin: 1%;
+}
+
+img {
+    max-width: 100%
+}
+
+.image {
+    flex-basis: 100%
+}
+
+
