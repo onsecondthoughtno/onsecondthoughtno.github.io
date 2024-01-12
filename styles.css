@@ -76,6 +76,17 @@ div.nav {
     padding-top: 45vh;
 }
 
+div.links {
+    padding: 5%;
+    margin-top: 37vh;
+    margin-left: 40%;
+    width: 15%;
+    min-width: 14vh;
+    max-width: 100px;
+    background-color: rgb(52, 76, 77);
+    text-align: center;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -85,20 +96,34 @@ div.nav {
 
 img.left {
     float: left;
-    margin: 1%;
+    margin: 0;
 }
 
 img.right {
     float: right;
-    margin: 1%;
+    margin: 0;
+}
+
+img.center {
+    padding: 0;
+    margin:0;
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    padding: 0
 }
 
 .image {
-    flex-basis: 100%
+    flex-basis: 100%;
+    padding:0;
+    margin:0;
 }
 
+
+h2{
+    margin: 1%;
+}
 
